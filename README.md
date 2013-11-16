@@ -44,6 +44,7 @@ Under the `runtimes` directory are the pacakge configurations for various
 runtimes that can be pulled into Continuum.
 
 * clisp 2.49
+* erlang R16B02
 * go 1.1.1
 * go 1.1.2
 * node 0.10.21
