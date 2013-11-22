@@ -33,7 +33,7 @@ application (ie, might need git to checkout a repository).
 * maven 3.1.0
 * memcached 1.4.15
 * mercurial 2.8
-* nginx 1.4.3
+* nginx 1.4.4
 * redis 2.6.16
 * subversion 1.8.4
 * zsh 5.0.2
