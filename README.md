@@ -56,9 +56,13 @@ runtimes that can be pulled into Continuum.
 * perl 5.16.3
 * perl 5.18.1
 * php 5.4.21
-* php 5.5.5 (for both apache/mod_perl and nginx/php-fpm)
+* php 5.5.5 (for both `apache/mod_perl` and `nginx/php-fpm`)
 * python 2.7.5
 * python 3.3.2
 * ruby 1.8.7
 * ruby 1.9.3
 * ruby 2.0.0
+
+### Patches
+
+Under the `patches` directory are various patches carried locally.
