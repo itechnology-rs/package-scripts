@@ -14,6 +14,18 @@ development headers for the libraries available in the base.
 * Busybox (using Buildroot 2013.08.1)
 * Ubuntu 13.04
 
+## Buildroot / Busybox
+
+The pre-generated image can be downloaded from:
+
+* [rootfs.tar.gz](http://apcera-sources.s3.amazonaws.com/os/rootfs.tar.gz) (14mb, SHA256: b9a77bdb246efadb285baf713626a83db3b71c11bc472d145228c98ca698daf1)
+
+It can be loaded into the cluster using APC:
+
+```
+apc package from file rootfs.tar.gz "Buildroot Linux" --provides="os=buildroot" --environment="PATH=\$PATH:/bin:/sbin:/usr/bin:/usr/sbin" --batch
+```
+
 ## Common Libraries
 
 Files:
