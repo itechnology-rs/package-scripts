@@ -30,18 +30,6 @@ choose the software and apply market forces by selecting only software which
 meets our criteria.
 
 
-LibJPG
-------
-
-Release site at <http://www.ijg.org/>; HTTPS unrelated (accesses site-builder
-default install setup).  Older releases also in index at
-<http://www.ijg.org/files/>.  No fingerprints, no signatures.  Nada.
-
-Using the older releases in index, we can pull back "latest" and "last one in
-a package .conf" and if the latter verifies, hope that an attacker is
-restricting themselves to only trojanning the latest.
-
-
 FreeType
 --------
 
@@ -55,6 +43,18 @@ Verification Key”.  That service issues two-week signatures upon key
 retrieval, but no longer has that key, or any other for <wl@gnu.org>.  The
 last such signature dates from 2005.  So this ten-year-old 1024-bit key has
 only signatures from an address verification signer, eight years ago.
+
+
+LibJPG
+------
+
+Release site at <http://www.ijg.org/>; HTTPS unrelated (accesses site-builder
+default install setup).  Older releases also in index at
+<http://www.ijg.org/files/>.  No fingerprints, no signatures.  Nada.
+
+Using the older releases in index, we can pull back "latest" and "last one in
+a package .conf" and if the latter verifies, hope that an attacker is
+restricting themselves to only trojanning the latest.
 
 
 LibPNG
@@ -87,5 +87,32 @@ As of 2013-12-15, the keys observed were:
 Neither key is in the strong set, I (Phil) have no trust path to them.  The
 detached signatures validated, and the MD5 checksums of the files signed
 matched those given on the unencrypted release page.
+
+
+ZSH
+---
+
+Current version listed at <http://zsh.sourceforge.net/Arc/source.html> and
+announced at <zsh-announce@zsh.org>.  No cryptographic signatures or checksums
+available.  Source is available via git, does have annotated (but not signed)
+tags for releases.
+
+Checkout the release tag, then invoke the release script, normalizing the
+locale (see below), which should produce a tarball which you can extract and
+compare against the contents from the release tarball. Junk the documentation
+and FAQ (`Doc/` & `Etc/FAQ`) as results vary by version of `yodl`; at this
+point a `diff -qr` should show that the only files possibly still differing
+are `config.h.in` and `configure`, as a result of automake variances.
+
+```console
+% ( export LC_ALL=C; ./configure && make targz-src )
+```
+
+If in doubt, ask Phil, who can chase on the dev mailing-list; his git repo has
+the 5.0.5 release being git sha `79abe00e1d73b3f0681343a70e3e7f84e5e3d647`,
+confirmed against the release tarball with the above steps.  This should
+provide a baseline for future comparisons: if this commit is not in your
+git history, be wary.
+
 
 #EOF
