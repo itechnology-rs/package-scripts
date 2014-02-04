@@ -19,7 +19,8 @@ Under the `os` directory are the package configurations for various
 distributions and versions.
 
 * Busybox (using Buildroot 2013.08.1)
-* Ubuntu 13.04
+* Ubuntu 12.04
+* Ubuntu 13.10
 
 ### Packages
 
@@ -28,40 +29,37 @@ packages that can be pulled into Continuum. Some of them are dependencies of
 runtimes within the platform, or become dependencies while staging an
 application (ie, might need git to checkout a repository).
 
-* apache 2.2.25
-* git 1.8.4.2
-* maven 3.1.0
-* memcached 1.4.15
-* mercurial 2.8
+* apache 2.2.26
+* git 1.8.5.3
+* maven 3.1.1
+* memcached 1.4.17
+* mercurial 2.9
 * nginx 1.4.4
-* redis 2.6.16
-* subversion 1.8.4
-* zsh 5.0.2
+* redis 2.8.5
+* subversion 1.8.5
 
 ### Runtimes
 
 Under the `runtimes` directory are the pacakge configurations for various
 runtimes that can be pulled into Continuum.
 
-* clisp 2.49
-* erlang R16B02
-* go 1.1.1
-* go 1.1.2
-* node 0.10.21
+* go 1.2
 * node 0.6.21
 * node 0.8.26
+* node 0.10.25
 * openjdk 1.6.0-b27
 * openjdk 1.7.0-u6-b24
 * perl 5.14.4
 * perl 5.16.3
-* perl 5.18.1
-* php 5.4.21
-* php 5.5.5 (for both `apache/mod_perl` and `nginx/php-fpm`)
-* python 2.7.5
-* python 3.3.2
-* ruby 1.8.7
-* ruby 1.9.3
-* ruby 2.0.0
+* perl 5.18.2
+* php 5.4.24
+* php 5.5.8 (for both `apache/mod_perl` and `nginx/php-fpm`)
+* python 2.7.6
+* python 3.3.3
+* ruby 1.8.7-p371-apc1
+* ruby 1.9.3-p484
+* ruby 2.0.0-p353
+* ruby 2.1.0
 
 ### Patches
 
