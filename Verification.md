@@ -71,6 +71,21 @@ ongoing delta audits.  It seems the general open source community is using
 Ongoing Repeated Leaps Of Faith around libpng.
 
 
+Node.JS
+-------
+
+Releases are indexed at <http://nodejs.org/dist/>. No HTTPS is available. The
+releases include a file listing all of the SHAs for the release files, available
+with either SHA1s or SHA256s. They also provide a GPG signature to verify the
+list of SHAs.
+
+The signature used on the list of SHAs is not specifically documented on the
+Node.JS site. The observed releases lately are all signed by the same person.
+
+As of 2014-02-04, the signature uses the key `0246406D`, which is attributed to
+`Timothy J Fontaine (Personal) <tjfontaine@gmail.com>`.
+
+
 PHP
 ---
 
