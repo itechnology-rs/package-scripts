@@ -89,6 +89,30 @@ detached signatures validated, and the MD5 checksums of the files signed
 matched those given on the unencrypted release page.
 
 
+Python
+------
+
+Software releases are are indexed at <http://www.python.org/download/releases/>,
+HTTPS not available. There are different PGP keys used for each major.minor
+release. Each release has a deteached signature, linked to from the download
+package. A list of MD5 checksums are provided on the download page as well.
+
+As of 2014-02-04, the keys observed were:
+
+* Python 2.7.6: 36580288
+* Python 3.3.3: 18ADD4FF
+
+
+Ruby
+----
+
+Releases are indexed at <https://www.ruby-lang.org/en/downloads/>. HTTPS is
+available and is the default. No cryptographic signatures are provided. MD5
+checksums are provided on the downloads page. The checksums are not stored with
+the release, so only the MD5s for the latest release of the supported versions
+are available.
+
+
 ZSH
 ---
 
