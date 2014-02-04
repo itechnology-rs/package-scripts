@@ -12,7 +12,8 @@ development headers for the libraries available in the base.
 ## Versions
 
 * Busybox (using Buildroot 2013.08.1)
-* Ubuntu 13.04
+* Ubuntu 12.04
+* Ubuntu 13.10
 
 ## Buildroot / Busybox
 
