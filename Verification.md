@@ -104,8 +104,8 @@ the release-page.
 
 As of 2013-12-15, the keys observed were:
 
- * PHP 5.5.7:  0xFE857D9A90D90EC1  (reconfirmed 2014-03-06 with 5.5.10)
- * PHP 5.4.23: 0x2F7956BC5DA04B5D
+ * `PHP 5.5.7:  0xFE857D9A90D90EC1`  (reconfirmed 2014-03-06 with 5.5.10)
+ * `PHP 5.4.23: 0x2F7956BC5DA04B5D`  (reconfirmed 2014-03-07 with 5.4.26)
 
 Neither key is in the strong set, I (Phil) have no trust path to them.  The
 detached signatures validated, and the MD5 checksums of the files signed
