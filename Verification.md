@@ -61,12 +61,20 @@ LibPNG
 ------
 
 Releases indexed at <http://www.libpng.org/pub/png/libpng.html>.  No HTTPS.
-No cryptographic signatures.  MD5 checksums found in the web-page.  The
-SourceForge git repo is a sequence of imports from the release tarballs.
+As of 1.6.10, I found detached PGP signatures, not observed as of 1.6.8.
+MD5 checksums found in the web-page.
+The SourceForge git repo is a sequence of imports from the release tarballs.
 
 Can't spot an OS bundling newer than 1.5.x.
 
-In short: no meaningful verification is possible without a source audit and
+As of 2014-03-06 (1.6.10), the PGP signatures verify, but the key used has no
+third-party signatures upon it.  At this time, the key observed is
+`0xF54984BFA16C640F`, self-purporting to belong to `Glenn Randers-Pehrson
+(libpng) <glennrp@users.sourceforge.net>`.  
+`Primary key fingerprint: 8048 643B A2C8 40F4 F92A  195F F549 84BF A16C 640F`
+
+Previous summary, still somewhat relevant:
+no meaningful verification is possible without a source audit and
 ongoing delta audits.  It seems the general open source community is using
 Ongoing Repeated Leaps Of Faith around libpng.
 
@@ -96,7 +104,7 @@ the release-page.
 
 As of 2013-12-15, the keys observed were:
 
- * PHP 5.5.7:  0xFE857D9A90D90EC1
+ * PHP 5.5.7:  0xFE857D9A90D90EC1  (reconfirmed 2014-03-06 with 5.5.10)
  * PHP 5.4.23: 0x2F7956BC5DA04B5D
 
 Neither key is in the strong set, I (Phil) have no trust path to them.  The
