@@ -42,7 +42,9 @@ Signatures observed (as of 2.5.2) were with keyid 0xC1A60EACE707FDA5 which has
 Verification Key”.  That service issues two-week signatures upon key
 retrieval, but no longer has that key, or any other for <wl@gnu.org>.  The
 last such signature dates from 2005.  So this ten-year-old 1024-bit key has
-only signatures from an address verification signer, eight years ago.
+only signatures from an address verification robo-signer, eight years ago.
+
+Same 0xC1A60EACE707FDA5 key observed for 2.5.3 release on 2014-03-09.
 
 
 LibJPG
