@@ -29,6 +29,11 @@ used by others, and the dependencies of those systems, so we don't get to
 choose the software and apply market forces by selecting only software which
 meets our criteria.
 
+Note: tools exist to create PGP keys repeatedly until a chosen 8-char value is
+made, so attackers can target the ‘short’ form PGP keyids (32-bits of
+entropy).  Please use the 16-character form, or the key fingerprint, in this
+document.
+
 
 FreeType
 --------
@@ -124,8 +129,8 @@ package. A list of MD5 checksums are provided on the download page as well.
 
 As of 2014-02-04, the keys observed were:
 
-* Python 2.7.6: 36580288
-* Python 3.3.3: 18ADD4FF
+* `Python 2.7.6: 0x04C367C218ADD4FF`
+* `Python 3.3.3: 0x0A5B101836580288`  (reconfirmed 2014-03-10 with 3.3.5)
 
 
 Ruby
