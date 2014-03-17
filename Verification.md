@@ -124,13 +124,18 @@ Python
 
 Software releases are are indexed at <http://www.python.org/download/releases/>,
 HTTPS not available. There are different PGP keys used for each major.minor
-release. Each release has a deteached signature, linked to from the download
+release. Each release has a detached signature, linked to from the download
 package. A list of MD5 checksums are provided on the download page as well.
 
-As of 2014-02-04, the keys observed were:
+PGP signing key version history:
 
-* `Python 2.7.6: 0x04C367C218ADD4FF`
-* `Python 3.3.3: 0x0A5B101836580288`  (reconfirmed 2014-03-10 with 3.3.5)
+| Software   | PGP Key            | Key Owner (purported) | First Version+Date | Latest Confirmation | Notes |
+|------------|-------------------:|:----------------------|:-------------------|:--------------------|-------|
+| Python 2.7 | 0x04C367C218ADD4FF | Benjamin Peterson | 2.7.6 2014-02-04  | - | |
+| Python 3.3 | 0x0A5B101836580288 | Georg Brandl      | 3.3.3 2014-02-04  | 3.3.5 2014-03-10 | |
+| Python 3.4 | 0x3A5CA953F73C700D | Larry Hastings    | 3.4.0 2014-03-17  | - | |
+| VirtualEnv | 0x6E3CBCE93372DCFA | Donald Stufft     | 1.11.4 2014-03-17 | - | |
+| Pip        | 0x6E3CBCE93372DCFA | Donald Stufft     | 1.5.4 2014-03-17  | - | |
 
 
 Ruby
