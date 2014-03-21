@@ -101,6 +101,18 @@ As of 2014-02-04, the signature uses the key `0246406D`, which is attributed to
 `Timothy J Fontaine (Personal) <tjfontaine@gmail.com>`.
 
 
+OCaml
+-----
+
+Releases are indexed at <http://ocaml.org/releases/>.  No HTTPS is available
+(nothing listening on port).  No signatures, no checksums given in
+public-facing documentation that I found.  However, the directory where the
+actual tarballs are retrieved from has an `MD5SUM` file.
+
+So <http://caml.inria.fr/pub/distrib/ocaml-4.00/>, or `ocaml-4.01/`.
+(Attempts to use HTTPS hang).
+
+
 PHP
 ---
 
