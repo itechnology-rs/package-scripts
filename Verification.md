@@ -35,6 +35,15 @@ entropy).  Please use the 16-character form, or the key fingerprint, in this
 document.
 
 
+Apache
+------
+
+Release site is at <https://httpd.apache.org/download.cgi>. The site includes
+the PGP signature, as well as MD5 and SHA1 hashes. The Apache Server verification
+guide is at <https://httpd.apache.org/dev/verification.html> which includes
+details on how to verify the PGP key used to sign the downloads.
+
+
 FreeType
 --------
 
@@ -77,7 +86,7 @@ Can't spot an OS bundling newer than 1.5.x.
 As of 2014-03-06 (1.6.10), the PGP signatures verify, but the key used has no
 third-party signatures upon it.  At this time, the key observed is
 `0xF54984BFA16C640F`, self-purporting to belong to `Glenn Randers-Pehrson
-(libpng) <glennrp@users.sourceforge.net>`.  
+(libpng) <glennrp@users.sourceforge.net>`.
 `Primary key fingerprint: 8048 643B A2C8 40F4 F92A  195F F549 84BF A16C 640F`
 
 Previous summary, still somewhat relevant:
