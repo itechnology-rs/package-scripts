@@ -6,7 +6,7 @@ Continuum.
 Using these definitions can be done through the use of APC:
 
 ```console
-$ apc package build go-1.1.2.conf
+$ apc package build go-1.2.conf
 ```
 
 This will use the package definition to generate a build script, upload that to
@@ -21,6 +21,7 @@ distributions and versions.
 * Busybox (using Buildroot 2013.08.1)
 * Ubuntu 12.04
 * Ubuntu 13.10
+* Ubuntu 14.04
 
 ### Packages
 
