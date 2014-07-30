@@ -6,7 +6,7 @@ Continuum.
 Using these definitions can be done through the use of APC:
 
 ```console
-$ apc package build go-1.2.conf
+$ apc package build runtimes/go-1.3.conf
 ```
 
 This will use the package definition to generate a build script, upload that to
@@ -30,37 +30,50 @@ packages that can be pulled into Continuum. Some of them are dependencies of
 runtimes within the platform, or become dependencies while staging an
 application (ie, might need git to checkout a repository).
 
-* apache 2.2.26
-* git 1.8.5.3
-* maven 3.1.1
-* memcached 1.4.17
-* mercurial 2.9
-* nginx 1.4.4
-* redis 2.8.5
-* subversion 1.8.5
+* apache-2.2.27
+* apache-ant-1.9.4
+* apache-tomcat-7.0.55
+* bzr-2.6.0
+* git-2.0.3
+* maven-3.2.2
+* memcached-1.4.20
+* mercurial-3.0.2
+* nginx-1.6.0
+* redis-2.8.13
+* subversion-1.8.9
+* zsh-5.0.5
 
 ### Runtimes
 
 Under the `runtimes` directory are the pacakge configurations for various
 runtimes that can be pulled into Continuum.
 
-* go 1.2
-* node 0.6.21
-* node 0.8.26
-* node 0.10.25
-* openjdk 1.6.0-b27
-* openjdk 1.7.0-u6-b24
-* perl 5.14.4
-* perl 5.16.3
-* perl 5.18.2
-* php 5.4.24
-* php 5.5.8 (for both `apache/mod_perl` and `nginx/php-fpm`)
-* python 2.7.6
-* python 3.3.3
-* ruby 1.8.7-p371-apc1
-* ruby 1.9.3-p484
-* ruby 2.0.0-p353
-* ruby 2.1.0
+* clisp-2.49
+* erlang-R16B02
+* erlang-R16B03
+* erlang-otp1701
+* go-1.2
+* go-1.3
+* node-0.10.29
+* node-0.6.21
+* node-0.8.27
+* ocaml-4.01.0
+* openjdk-1.6
+* openjdk-1.7
+* perl-5.14.4
+* perl-5.16.3
+* perl-5.18.2
+* perl-5.20.0
+* php-5.4.31
+* php-apache-5.5.15
+* php-fpm-nginx-5.5.15
+* python-2.7.8
+* python-3.3.5
+* python-3.4.1
+* ruby-1.8.7-p373
+* ruby-1.9.3-p547
+* ruby-2.0.0-p481
+* ruby-2.1.2
 
 ### Patches
 
