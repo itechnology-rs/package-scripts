@@ -122,6 +122,15 @@ So <http://caml.inria.fr/pub/distrib/ocaml-4.00/>, or `ocaml-4.01/`.
 (Attempts to use HTTPS hang).
 
 
+Perl
+----
+
+Perl releases are located at: http://www.cpan.org/src/5.0/ and include a md5.txt,
+sha1.txt and sha256.txt file that we use to validate all downloads. Unfortunately
+they do not provide the downloads over https or we would use that download
+location.
+
+
 PHP
 ---
 
