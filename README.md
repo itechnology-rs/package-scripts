@@ -3,6 +3,8 @@
 These are the package config scripts we use to build the runtimes available in
 Continuum.
 
+**NOTE: this repository is deprecated in favor of [continuum-package-scripts](https://github.com/apcera/continuum-package-scripts), which is open source.
+
 Using these definitions can be done through the use of APC:
 
 ```console
