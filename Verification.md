@@ -190,6 +190,9 @@ Source is available via git, does have annotated (but not signed)
 tags for releases.  It is possible, but not necessary, to perform a more
 thorough verification thusly:
 
+Have yodl installed, which requires icmake.  Give up at this point unless
+determined (yes, it really is bad).
+
 Checkout the release tag, then invoke the release script, normalizing the
 locale (see below), which should produce a tarball which you can extract and
 compare against the contents from the release tarball. Junk the documentation
@@ -198,14 +201,17 @@ point a `diff -qr` should show that the only files possibly still differing
 are `config.h.in` and `configure`, as a result of automake variances.
 
 ```console
+% git clean -fx .
+% ./.preconfig
 % ( export LC_ALL=C; ./configure && make targz-src )
 ```
 
 If in doubt, ask Phil, who can chase on the dev mailing-list; his git repo has
-the 5.0.5 release being git sha `79abe00e1d73b3f0681343a70e3e7f84e5e3d647`,
-confirmed against the release tarball with the above steps.  This should
-provide a baseline for future comparisons: if this commit is not in your
-git history, be wary.
+the reference points below, confirmed against the release tarballs with the
+above steps.  This should provide a baseline for future comparisons: if these
+commits are not in your git history, be wary.
 
+* 5.0.5 git sha `79abe00e1d73b3f0681343a70e3e7f84e5e3d647`
+* 5.0.7 git sha `208bdede3e812ea9e28937034fdbfdf1d7549fed`
 
 #EOF
