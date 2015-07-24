@@ -40,7 +40,9 @@ application (ie, might need git to checkout a repository).
 * maven-3.2.2
 * memcached-1.4.20
 * mercurial-3.0.2
+* mysql-5.6.25
 * nginx-1.6.0
+* postgres-9.4.4
 * redis-2.8.13
 * subversion-1.8.9
 * zsh-5.0.5
