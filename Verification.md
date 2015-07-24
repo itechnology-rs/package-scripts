@@ -95,6 +95,18 @@ ongoing delta audits.  It seems the general open source community is using
 Ongoing Repeated Leaps Of Faith around libpng.
 
 
+MYSQL
+---
+
+Software releases are indexed at <https://dev.mysql.com/downloads/mysql/>.
+select 'source code' from 'Select Platform' and find 'Generic Linux 
+(Architecture Independent), Compressed TAR Archive'.
+
+For verification they provide both a Signature(GPG) and MD5 checksums.
+
+https://dev.mysql.com/doc/refman/5.6/en/checking-gpg-signature.html
+
+
 Node.JS
 -------
 
