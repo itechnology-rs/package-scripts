@@ -187,6 +187,26 @@ PGP signing key version history:
 | VirtualEnv | 0x6E3CBCE93372DCFA | Donald Stufft     | 1.11.4 2014-03-17 | - | |
 | Pip        | 0x6E3CBCE93372DCFA | Donald Stufft     | 1.5.4 2014-03-17  | - | |
 
+Rsync
+----
+HTTPS based release index: <https://www.samba.org/ftp/rsync/src/>
+As of release `rsync-2.6.2` (2004-06-16), PGP Signitures are provided.
+First PGP signed and current releases are signed with the same key.
+
+| PGP Key            | Key Owner (purported) | First Version+Date | Latest Confirmation | Notes |
+|-------------------:|:----------------------|:-------------------|:--------------------|-------|
+| 0x6C859FB14B96A8C5 | Wayne Davison         | rsync-2.6.2 2004-06-16 | 3.1.1 2014-06-22 | |
+
+Checksums are not availble in the release index. Ben Werthmann has verified version 3.3.1 and generated
+a sha256 checksum for the package script. The signing key is not in the stong set. There are a few
+signatures from a few years ago, one of which appears to be another key belonging to Wayne. <http://pgp.surfnet.nl:11371/pks/lookup?op=vindex&fingerprint=on&search=0xADB8A2B829C67D63>
+
+Phil Pennock has a full trust path to key 0x6C859FB14B96A8C5 for the uid Wayne Davison <wayned@samba.org>;
+Phil has signed Marc Merlin's key 0x7E3150A6763BE901 which has signed 0x3C63CA3FA0B3E88B which has
+signed Martin Pool's key 0x3C63CA3FA0B3E88B which signed Wayne's key. Based on this, we have strong cause
+to believe that a key owned by Wayne Davison (whoever that is) was used to sign the release, and since the
+verified trust path is to an @samba.org email address, we can (more or less) assume that he's authorized
+to generate rsync releases based on the assumption that someone would asserted concern years ago.
 
 Ruby
 ----

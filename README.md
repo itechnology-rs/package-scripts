@@ -44,6 +44,7 @@ application (ie, might need git to checkout a repository).
 * nginx-1.6.0
 * postgres-9.4.4
 * redis-2.8.13
+* rsync-3.1.1
 * subversion-1.8.9
 * zsh-5.0.5
 
