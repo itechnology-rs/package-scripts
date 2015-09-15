@@ -133,6 +133,12 @@ actual tarballs are retrieved from has an `MD5SUM` file.
 So <http://caml.inria.fr/pub/distrib/ocaml-4.00/>, or `ocaml-4.01/`.
 (Attempts to use HTTPS hang).
 
+ovftool
+----
+
+VMware's ovf tool is downloaded from https://www.vmware.com/support/developer/ovf/
+VMware provides a page which contains checksums. The file must be located in the
+same directory as the package script prior to running the package build.
 
 Perl
 ----
