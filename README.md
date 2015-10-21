@@ -5,7 +5,7 @@ These are the package config scripts we use to build the runtimes available in t
 Using these definitions can be done through the use of APC:
 
 ```console
-$ apc package build runtimes/go-1.5.1.conf
+$ apc package build runtimes/go-1.5.1.conf --name go-1.5.1
 ```
 
 This will use the package definition to generate a build script, upload that to
