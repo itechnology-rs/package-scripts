@@ -81,6 +81,7 @@ runtimes that can be pulled into the Apcera Platform.
 * node-0.6.21
 * node-0.8.28
 * node-0.10.40
+* node-4.2.1
 * ocaml-4.01.0
 * openjdk-1.6
 * openjdk-1.7
