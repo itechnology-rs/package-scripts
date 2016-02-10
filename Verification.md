@@ -95,8 +95,36 @@ ongoing delta audits.  It seems the general open source community is using
 Ongoing Repeated Leaps Of Faith around libpng.
 
 
+Linux Test Project
+------------------
+
+Linux Test Project is a joint project started by SGI, OSDL and Bull developed
+and maintained by IBM, Cisco, Fujitsu, SUSE, Red Hat, Oracle and others. The
+project goal is to deliver tests to the open source community that validate the
+reliability, robustness, and stability of Linux.
+
+The LTP testsuite contains a collection of tools for testing the Linux kernel
+and related features. Our goal is to improve the Linux kernel and system
+libraries by bringing test automation to the testing effort. Interested open
+source contributors are encouraged to join.
+
+We use the locktest program from this package to test fcntl file locks on SMB
+file systems.
+
+Overview of the tests in this package: https://github.com/linux-test-project/ltp/tree/20160510
+
+fcntl locking tests: https://github.com/linux-test-project/ltp/tree/20160510/testcases/network/nfsv4/locks
+
+The SHA256 signature for the `20160510.zip` zip file is
+ee9974dcd7b0f36aafc952f6ce647aeb26153891051498897db0a0a70460c853, verified by Earl Ruby
+on 2016-06-28. 
+
+The locktest code does not need root privileges to run, so a test runner user can
+run the locktest.
+
+
 MYSQL
----
+-----
 
 Software releases are indexed at <https://dev.mysql.com/downloads/mysql/>.
 select 'source code' from 'Select Platform' and find 'Generic Linux 
@@ -196,7 +224,7 @@ PGP signing key version history:
 Rsync
 ----
 HTTPS based release index: <https://www.samba.org/ftp/rsync/src/>
-As of release `rsync-2.6.2` (2004-06-16), PGP Signitures are provided.
+As of release `rsync-2.6.2` (2004-06-16), PGP Signatures are provided.
 First PGP signed and current releases are signed with the same key.
 
 | PGP Key            | Key Owner (purported) | First Version+Date | Latest Confirmation | Notes |
