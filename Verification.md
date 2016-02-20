@@ -193,6 +193,36 @@ PGP signing key version history:
 | VirtualEnv | 0x6E3CBCE93372DCFA | Donald Stufft     | 1.11.4 2014-03-17 | - | |
 | Pip        | 0x6E3CBCE93372DCFA | Donald Stufft     | 1.5.4 2014-03-17  | - | |
 
+fio
+----
+Release index: https://github.com/axboe/fio/releases
+Releases are not signed. No checksums are published.
+
+Git commit for this release
+
+```
+git log -1
+commit a8381d78ec52d00541ddd7ef8bd7584e99361b0e
+Author: Jens Axboe <axboe@fb.com>
+Date:   Tue Jan 26 19:02:07 2016 -0700
+
+    Fio 2.6
+
+        Signed-off-by: Jens Axboe <axboe@fb.com>
+```
+
+Ben Werthmann added this hash to the package script.
+
+```
+$ curl -L https://github.com/axboe/fio/archive/fio-2.6.tar.gz | shasum -a 256
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                   Dload  Upload   Total   Spent    Left  Speed
+                                   100   118    0   118    0     0    308      0 --:--:-- --:--:-- --:--:--   308
+                                   100  591k    0  591k    0     0   609k      0 --:--:-- --:--:-- --:--:-- 3027k
+                                   6288aa8b584be9fd729386d1fb2fe379d2b2131ecba697a6298b12101c416e59  -
+```
+
+
 Rsync
 ----
 HTTPS based release index: <https://www.samba.org/ftp/rsync/src/>
