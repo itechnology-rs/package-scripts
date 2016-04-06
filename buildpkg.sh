@@ -9,7 +9,7 @@ array=( $1 )   # node-4.4.2
 folder=( $2 )  # runtimes or packages
 
 for ((i=0;i<${#array[@]};++i)); do
-    printf "-----Building %s in %s folder.\n" "${array[i]}" "${folder[i]}"
+    printf "Building %s in %s folder.\n" "${array[i]}" "${folder[i]}"
     apc package delete package::/apcera/pkg/${folder[i]}::${array[i]} --batch
     apc package build ${folder[i]}/${array[i]}.conf --batch
     apc package export /apcera/pkg/${folder[i]}::${array[i]}
