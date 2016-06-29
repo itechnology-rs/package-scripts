@@ -64,6 +64,7 @@ application (ie, might need git to checkout a repository).
 * rabbitmq-3.5.5
 * redis-2.8.13
 * rsync-3.1.1
+* spark-1.6.1
 * subversion-1.8.9
 * subversion-1.9.3
 * tokumx-2.0.1

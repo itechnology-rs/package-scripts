@@ -224,6 +224,17 @@ the release, so only the MD5s for the latest release of the supported versions
 are available.
 
 
+Spark
+-----
+
+Spark 1.6.1 source code was downloaded from http://apache.mirror.anlx.net/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz
+on 2016-06-29 by Earl Ruby. The MD5 sum of spark-1.6.1-bin-hadoop2.6.tgz = 667a62d7f289479a19da4b563e7151d4,
+which matches the value shown at http://www.apache.org/dist/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz.md5.
+SHA256 of 09f3b50676abc9b3d1895773d18976953ee76945afa72fa57e6473ce4e215970 was computed by Earl Ruby, who uploaded the
+file from Apache.org into the Apcera S3 bucket https://apcera-sources.s3.amazonaws.com/spark/spark-1.6.1-bin-hadoop2.6.tgz.
+
+For an example of using the Spark package on the Apcera Platform, see https://www.apcera.com/blog/apache-spark-apcera-platform-community-edition.
+
 ZSH
 ---
 
