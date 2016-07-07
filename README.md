@@ -52,6 +52,7 @@ application (ie, might need git to checkout a repository).
 * git-2.3.1
 * git-2.8.0
 * imagemagick-6.8.9-6-apc1
+* ltp-2016.05.10
 * maven-3.2.2
 * memcached-1.4.20
 * mercurial-3.0.2
