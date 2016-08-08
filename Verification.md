@@ -261,6 +261,12 @@ which matches the value shown at http://www.apache.org/dist/spark/spark-1.6.1/sp
 SHA256 of 09f3b50676abc9b3d1895773d18976953ee76945afa72fa57e6473ce4e215970 was computed by Earl Ruby, who uploaded the
 file from Apache.org into the Apcera S3 bucket https://apcera-sources.s3.amazonaws.com/spark/spark-1.6.1-bin-hadoop2.6.tgz.
 
+Spark 2.0.0 source code was downloaded from http://d3kbcqa49mib13.cloudfront.net/spark-2.0.0-bin-hadoop2.6.tgz
+on 2016-08-08 by Earl Ruby. The MD5 sum of spark-2.0.0-bin-hadoop2.6.tgz = 6d9cac116f3434330869dedb6c5fe9ca,
+which matches the value shown at http://www.apache.org/dist/spark/spark-2.0.0/spark-2.0.0-bin-hadoop2.6.tgz.md5.
+SHA256 of e17d9da4b3ac463ea3ce42289f2a71cefb479d154b1ffd00310c7d7ab207aa2c was computed by Earl Ruby, who uploaded the
+file from Apache.org into the Apcera S3 bucket https://apcera-sources.s3.amazonaws.com/spark/spark-2.0.0-bin-hadoop2.6.tgz.
+
 For an example of using the Spark package on the Apcera Platform, see https://www.apcera.com/blog/apache-spark-apcera-platform-community-edition.
 
 ZSH
