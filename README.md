@@ -39,7 +39,6 @@ packages that can be pulled into the Apcera Platform. Some of them are dependenc
 runtimes within the platform, or become dependencies while staging an
 application (ie, might need git to checkout a repository).
 
-* dynatrace-packages
 * apache-2.2.29
 * apache-2.2.31
 * apache-2.4.18
