@@ -56,6 +56,7 @@ libgcc
 libicu
 ncurses-libs
 net-tools
+nmap-ncat
 openssh-clients
 openssl-libs
 passwd
@@ -125,5 +126,4 @@ rm /var/run/nologin
 /bin/date +%Y%m%d_%H%M > /etc/BUILDTIME
 
 "" > /etc/machine-id
-rm /root/anaconda-ks.cfg /anaconda-post.log
 %end
