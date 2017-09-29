@@ -2,7 +2,7 @@
 # https://github.com/CentOS/sig-cloud-instance-build/tree/c8e7802e29fc836f900541b58d4d5bc5880abc01/docker
 
 # Basic setup information.
-url --url="https://repository.prod.apcera.net/latest/centos/7/os/x84_64/"
+url --url="http://mirrors.kernel.org/centos/7/os/x86_64/"
 install
 keyboard us
 rootpw --lock --iscrypted locked
